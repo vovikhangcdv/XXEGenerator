@@ -1,0 +1,2 @@
+# XXEGenerator
+Generate XXE payloads
